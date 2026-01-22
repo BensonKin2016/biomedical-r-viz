@@ -1,0 +1,59 @@
+{
+  "name": "biomedical-r-viz",
+  "description": "R语言生物医药组学数据分析与可视化工具包 - Biomedical Omics Data Analysis & Visualization Toolkit in R",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "commands": [
+    {
+      "name": "omics-analysis",
+      "description": "组学数据综合分析 (差异表达、富集分析、多组学整合)",
+      "prompt_file": "prompts/omics_analysis.md"
+    },
+    {
+      "name": "volcano",
+      "description": "创建发表级火山图",
+      "prompt_file": "prompts/volcano_plot.md"
+    },
+    {
+      "name": "heatmap",
+      "description": "创建增强版聚类热图",
+      "prompt_file": "prompts/heatmap.md"
+    },
+    {
+      "name": "enrichment",
+      "description": "GO/KEGG富集分析可视化",
+      "prompt_file": "prompts/enrichment.md"
+    },
+    {
+      "name": "network",
+      "description": "蛋白互作网络分析与可视化",
+      "prompt_file": "prompts/network.md"
+    },
+    {
+      "name": "venn",
+      "description": "韦恩图/UpSet图",
+      "prompt_file": "prompts/venn.md"
+    },
+    {
+      "name": "pca-umap",
+      "description": "PCA/UMAP降维分析",
+      "prompt_file": "prompts/dimensionality.md"
+    },
+    {
+      "name": "publication-figure",
+      "description": "生成A4发表级组合图",
+      "prompt_file": "prompts/publication_figure.md"
+    }
+  ],
+  "tags": ["R", "bioinformatics", "omics", "visualization", "proteomics", "transcriptomics"],
+  "requirements": {
+    "r_packages": [
+      "tidyverse", "ggplot2", "ggrepel", "patchwork", "cowplot",
+      "ComplexHeatmap", "circlize", "pheatmap",
+      "clusterProfiler", "enrichplot", "pathview",
+      "ggVennDiagram", "VennDiagram",
+      "igraph", "ggraph", "tidygraph",
+      "umap", "FactoMineR", "factoextra"
+    ]
+  }
+}
