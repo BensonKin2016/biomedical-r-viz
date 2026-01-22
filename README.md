@@ -1,10 +1,10 @@
-# Biomedical R Visualization Skill
+# MutiOmics R Visualization Skill
 
-R语言生物医药组学数据分析与可视化工具包
+基于R语言的组学数据分析与可视化工具包
 
 ## 简介
 
-这是一个用于Claude Code的自定义Skill，专注于使用R语言进行生物医药组学数据的分析与可视化。
+这是一个用于Claude Code的自定义Skills，专注于使用R语言进行组学数据的分析与可视化。
 
 ## 功能模块
 
@@ -54,8 +54,8 @@ Claude: 我将帮你创建火山图...
 
 ## 作者
 
-[Your Name]
+[Benson Kin]
 
 ## 版本
 
-v1.0.0 - 2025-01
+v1.0.0 - 2026-01
